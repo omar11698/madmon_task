@@ -1,0 +1,42 @@
+description: "A new Flutter project."
+name: madmon_task
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.2
+  svg_flutter: ^0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/fonts/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 700   
+
+    - family: PlusJakartaSans
+      fonts:
+        - asset: assets/fonts/plus_jakarta/static/PlusJakartaSans-ExtraLight.ttf
+        - asset: assets/fonts/plus_jakarta/static/PlusJakartaSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/plus_jakarta/static/PlusJakartaSans-Regular.ttf
+        - asset: assets/fonts/plus_jakarta/static/PlusJakartaSans-Medium.ttf
+          weight: 500
